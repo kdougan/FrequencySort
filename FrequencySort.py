@@ -38,4 +38,8 @@ def fsort(incoming_list, interval):
 	for i in range(len(slist)):
 		slist[i].sort(key=Counter(slist[i]).get, reverse=True)
 	ret = [item for sublist in slist for item in sublist]
+<<<<<<< HEAD
 	return ret
+=======
+	return ret
+>>>>>>> FETCH_HEAD
